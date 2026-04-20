@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Maquetado con BEM</title>
+</head>
+<body>
+    <header class="header"> 
+        <div class="header__content">
+        <IMG class="header__logo" src="images/Mi_logo.png" alt="Logo"></IMG>
+           <nav class="header__links">
+            <a href="#" class="header__menu-link">Quien soy</a>
+            <a href="#" class="header__menu-link">Servicios</a>
+            <a href="#" class="header__menu-link">Trabajos</a>
+        </nav>
+        </div>
+    </header>
+
+    <div class="entrada">
+        <h1 class="entrada__tittle">Bienvenido a mi sitio web</h1>
+        <p class="entrada__text">Aquí encontrarás información sobre mis servicios y proyectos.</p>
+        <img src="images/computadora_taza_cafe.png" alt="Imagen de entrada" class="entrada__image">
+    </div>
+    <section class="about-me">
+        <h2 class="about-me__tittle">Sobre mí</h2>
+        <p class="about-me__text">Hola, soy un desarrollador web apasionado
+             por crear experiencias digitales excepcionales.</p>
+    </section>
+
+    <section class="services">
+        <h2 class="services__title">Servicios</h2>
+        <p class="services__text">Ofrezco servicios de desarrollo web para ayudarte a llevar tu proyecto al siguiente nivel.</p>
+    </section>
+
+<section class="contenedor"> 
+    <h1 class="form__title">Contáctame</h1>
+    <div class="form">
+        <div class="fieldset">
+            <label for="email" class="fieldset__label">Email</label>
+            <input type="email" id="email" class="fieldset__input">
+        </div>
+        <div class="fieldset">
+            <label for="message" class="fieldset__label">Mensaje</label>
+            <textarea id="message" class="fieldset__input"></textarea>
+        </div>
+        
+        <div class="button-section">
+            <button type="submit" class="button-section__button">Enviar</button>
+        </div>
+    </div>
+</section>
+
+    <footer class="footer">
+        <img src="Images/Mi_logo.png" alt="" class="footer__logo">
+        <nav class="footer__social-link">
+            <a href="" title="github icons">Github</a>
+             <img src="images/github-sign.png" alt="Github">
+
+
+            <a href="" class="footer__social-link">Linkedin</a>
+            <img src="images/linkedin.png" alt="Linkedin" class="footer__social-link"> 
+        </nav>
+     </footer>
+        
+</body>
+</html>
