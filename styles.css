@@ -19,10 +19,10 @@ background-color: darkgray;
     height: 45px;
 }
 
-.header__logo {
+/*.header__logo {
 height: 80%;
 width: 10%;
-}
+}*/
 
 .header__links{
     display: flex;
@@ -45,12 +45,15 @@ width: 10%;
 .entrada{
     display: flex;
     flex-direction: column;
-    
-    
     padding: 20px;
     font-family: sans-serif;
     background-color: rgb(7, 10, 8);
     color: white;
+}
+
+.header__logo, .footer__logo {
+    height: 40px; /* Ajusta la altura según lo que necesites */
+    width: auto; /* Mantiene la proporción de la imagen */
 }
 
 
@@ -71,12 +74,12 @@ width: 10%;
     padding: 0 20px;
 }
 
-.footer__logo{
+/*.footer__logo{
     background-color: red;
     height: 80%;
     width: 10%;
 
-}
+}*/
 
 .contenedor{
      display: flex;
