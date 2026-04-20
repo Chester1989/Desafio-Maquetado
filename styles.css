@@ -14,10 +14,7 @@
     .header__content {
         height: 50px; /* Ajusta la altura para pantallas pequeñas */
         flex-direction: column; /* Cambia la dirección del flex si es necesario */
-    }
-
-    .header__logo {
-        height: 30px; /* Ajusta el tamaño del logo */
+    
     }
 }
 
@@ -31,7 +28,8 @@ background-color: darkgray;
     display: flex ;
     justify-content: space-between;
     align-items: center;
-    height: 45px;
+    height: 55px;
+
 }
 
 /*.header__logo {
@@ -66,7 +64,7 @@ width: 10%;
     color: white;
 }
 
-.header__logo, .footer__logo {
+.footer__logo, .header__logo {
     height: 40px; /* Ajusta la altura según lo que necesites */
     width: auto; /* Mantiene la proporción de la imagen */
 }
