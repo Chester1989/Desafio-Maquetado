@@ -8,6 +8,21 @@
 }
 
 
+
+/* Media query para pantallas pequeñas (mobile) */
+@media (max-width: 600px) {
+    .header__content {
+        height: 50px; /* Ajusta la altura para pantallas pequeñas */
+        flex-direction: column; /* Cambia la dirección del flex si es necesario */
+    }
+
+    .header__logo {
+        height: 30px; /* Ajusta el tamaño del logo */
+    }
+}
+
+
+
 .header{
 background-color: darkgray;
 }
